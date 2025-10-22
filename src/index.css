@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  scroll-behavior: smooth;
+}
+
+.fancy {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: italic;
+}
