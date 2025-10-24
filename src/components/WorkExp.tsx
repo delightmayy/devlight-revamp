@@ -35,7 +35,7 @@ const Works: React.FC<works> = ({
             <p className="font-semibold"> {countrytype} </p>
           </div>
         </div>
-        <p className="tracking tracking-wider mt-4 text-center md:text-start ">
+        <p className="tracking tracking-wider mt-4 text-center md:text-start text-white/60  hover:text-white/90 ">
           {description}
         </p>
 

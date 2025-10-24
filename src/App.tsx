@@ -38,7 +38,7 @@ const App: React.FC = () => {
 
   return (
     <div className="bg-black pt-2 pb-3 md:pt-4 lg:pt-6 px-1 md:px-2 ">
-      <div className="shadow shadow-white/55 rounded-t-3xl lg:rounded-t-[40px] lg:rounded-b-[40px] rounded-b-3xl border">
+      <div className="shadow shadow-white/55 border-t border-t-white/18 rounded-t-3xl lg:rounded-t-[40px] lg:rounded-b-[40px] rounded-b-3xl ">
         <div className="hidden lg:block absolute -translate-x-1/2 left-1/2 top-5  bg-black p-2 pb-4 px-6 rounded-b-2xl border-b border-white/35 ">
           <img src={logo} alt="Logo" className="w-34 " />
         </div>
