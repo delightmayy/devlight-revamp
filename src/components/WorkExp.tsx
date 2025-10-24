@@ -18,7 +18,7 @@ const Works: React.FC<works> = ({
   stacks,
 }) => {
   return (
-    <div className=" w-full flex flex-col gap-4  ">
+    <div className=" w-full flex flex-col gap-4 overflow-clip ">
       <div className=" p-4 px-6 lg:p-8  border-pink-300/30 border-b rounded-b-lg text-justify">
         <div className="flex justify-between gap-4">
           <div className=" flex flex-col py-3 gap-3">

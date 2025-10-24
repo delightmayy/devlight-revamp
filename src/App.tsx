@@ -15,6 +15,8 @@ const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
     const { pathname } = useLocation();
+   
+    
 
   useEffect(() => {
     window.scrollTo(0, 0);

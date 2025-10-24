@@ -1,15 +1,16 @@
 // src/components/Header.tsx
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "../img/logo.png";
 
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { pathname } = useLocation();
 
   return (
-    <header className=" text-white pt-2">
+    <header className={` text-white pt-2  rounded-t-3xl lg:rounded-t-[40px] ${pathname === "/" ? "sm:bg-white/6" : "bg-transparent"} `}>
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 ">
         <motion.div
           className="flex justify-between items-center h-16"
