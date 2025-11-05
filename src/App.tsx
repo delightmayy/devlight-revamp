@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import ErrorPage from "./pages/Error";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import logo from "./img/logo.png";
+import logo from "./img/logo.svg";
 import Contact from "./components/Contact";
 
 const App: React.FC = () => {

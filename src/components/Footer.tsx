@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../img/logo.png";
+import logo from "../img/logo.svg";
 import twitter from "../img/twitter.png";
 import linkedin from "../img/linkedin.png";
-import footlogo from "../img/footlogo.png";
+import footlogo from "../img/logo.svg";
 import { FaGoogle, FaWhatsapp } from "react-icons/fa";
 import { FaUpwork } from "react-icons/fa6";
 
@@ -120,7 +120,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className=" border-t border-gray-800 p-2 md:p-3 flex flex-col sm:flex-row justify-center items-center text-xs rounded-full bg-sky-600 ">
+        <div className=" border-t border-gray-800 p-2 md:p-3 flex flex-col sm:flex-row justify-center items-center text-xs rounded-full bg-sky-600/50 ">
           <img src={footlogo} alt="Surdatics Logo" className="w-25 md:w-30" />
         </div>
       </div>

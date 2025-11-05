@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "../img/logo.png";
+import logo from "../img/logo.svg";
 
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
